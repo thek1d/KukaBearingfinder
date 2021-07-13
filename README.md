@@ -4,7 +4,7 @@
 - <i> plotForces.py </i> is plotting the data as a live graph in 40msec intervalls.
 
 Example:
-![Test](Testlauf_13_7_21.png)
+![Test](img/Testlauf_13_7_21.png)
 
 ## How To: <br>
 First run the service which is logging the data like this
