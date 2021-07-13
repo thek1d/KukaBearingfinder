@@ -30,4 +30,4 @@ This can be done by publishing a message to the same topic where enabling it <i>
 - {"enable" : "false"}
 
 If you want want to make a complete new plot delete the forces.cvs file
-Hit <i>Crtl + C</i> for stopping the <i>Service_Force_Messurement.py</i> and <i>plotForces.py</i>
+Hit <i>Crtl + C</i> for stopping the <i>Service_Force_Messurement.py</i> and <i>plotForces.py</i> and start them again.
