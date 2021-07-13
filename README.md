@@ -18,6 +18,8 @@ Now you should see an empty plot for getting data you need to enable logging via
 
 - {"enable" : "true"}
 
+![enable](img/enable_logging.png)
+
 This can be done by any MQTT Client or an MQTT tool like <i>MQTT Explorer</i> 
 
 ## Stopping plotting
