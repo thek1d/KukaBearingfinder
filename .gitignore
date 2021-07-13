@@ -1,3 +1,5 @@
 # ignore following files
 requirements.txt
 forces.csv
+MqttClientKukaBearingFinder.py
+Testlauf_13_7_21.png
