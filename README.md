@@ -14,7 +14,7 @@ Afterwards run
 
 - python3 plotForces.py
 
-Now you should see an empty plot for getting data you need to enable logging via publishing following to the topic <i>BearingFinder/EnableDBLogging</i>
+Now you should see an empty plot, for getting data you need to enable logging via publishing following to the topic <i>BearingFinder/EnableDBLogging</i>
 
 - {"enable" : "true"}
 
