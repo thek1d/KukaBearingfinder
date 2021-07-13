@@ -20,3 +20,12 @@ Now you should see an empty plot for getting data you need to enable logging via
 
 This can be done by any MQTT Client or an MQTT tool like <i>MQTT Explorer</i> 
 
+## Stopping plotting
+
+This can be done by publishing a message to the same topic where enabling it <i>BearingFinder/EnableDBLogging</i>
+
+
+- {"enable" : "false"}
+
+If you want want to make a complete new plot delete the forces.cvs file
+Hit <i>Crtl + C</i> for stopping the <i>Service_Force_Messurement.py</i> and <i>plotForces.py</i>
