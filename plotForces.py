@@ -22,22 +22,22 @@ def animate(i):
     forcez = data['Force_Z']
 
     ax1.cla()
-    ax1.plot(ts, forcex, label='Force x-Axis')
-    ax1.plot(ts, forcey, label='Force y-Axis')
-    ax1.plot(ts, forcez, label='Force z-Axis')
+    ax1.plot(ts, forcex, label='Fx')
+    ax1.plot(ts, forcey, label='Fy')
+    ax1.plot(ts, forcez, label='Fz')
     ax1.set_title('Forces')
     ax1.set_xlabel('time [ms]')
     ax1.set_ylabel('Force [N]')
-    ax1.legend(loc='lower left')
+    ax1.legend(loc='upper left')
 
     torquex = data['Torque_X']
     torquey = data['Torque_Y']
     torquez = data['Torque_Z']
 
     ax2.cla()
-    ax2.plot(ts, torquex, label='Torque x-Axis')
-    ax2.plot(ts, torquey, label='Torque y-Axis')
-    ax2.plot(ts, torquez, label='Torque z-Axis')
+    ax2.plot(ts, torquex, label='Mx')
+    ax2.plot(ts, torquey, label='My')
+    ax2.plot(ts, torquez, label='Mz')
     ax2.set_title('Torques')
     ax2.set_xlabel('Time [ms]')
     ax2.set_ylabel('Torque [Nmm]')
