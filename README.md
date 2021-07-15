@@ -14,6 +14,8 @@ Afterwards run
 
 - python3 plotForces.py
 
+or by just executing the script "<i>plotforces.sh</i>"
+
 Now you should see an empty plot, for getting data you need to enable logging via publishing following to the topic <i>BearingFinder/EnableDBLogging</i>
 
 - {"enable" : "true"}
