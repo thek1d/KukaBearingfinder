@@ -12,7 +12,7 @@ Keep_Alive_Interval = 45
 MQTT_Topic = "BearingFinder"
 MQTT_Topic_Enable_Logging = "BearingFinder/EnableDBLogging"
 global mqttc
-fieldnames = ["Timestamp", "Force_X", "Force_Y", "Force_Z", "Torqe_X", "Torqe_Y", "Torqe_Z"]
+fieldnames = ["Timestamp", "Force_X", "Force_Y", "Force_Z", "Torque_X", "Torque_Y", "Torque_Z"]
 
 
 def on_connect(mosq, obj, rc, properties=None):
