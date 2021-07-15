@@ -51,21 +51,6 @@ def Messbox_Data_Handler(topic, jsonData):
 
     ts = json_Dict['start']
 
-    axis1   = json_Dict['joints'][0]
-    axis2   = json_Dict['joints'][1]
-    axis3   = json_Dict['joints'][2]
-    axis4   = json_Dict['joints'][3]
-    axis5   = json_Dict['joints'][4]
-    axis6   = json_Dict['joints'][5]
-    axis7   = json_Dict['joints'][6]
-    torque1 = json_Dict['torques'][0]
-    torque2 = json_Dict['torques'][1]
-    torque3 = json_Dict['torques'][2]
-    torque4 = json_Dict['torques'][3]
-    torque5 = json_Dict['torques'][4]
-    torque6 = json_Dict['torques'][5]
-    torque7 = json_Dict['torques'][6]
-
     forcex = json_Dict['forces'][0]
     forcey = json_Dict['forces'][1]
     forcez = json_Dict['forces'][2]
