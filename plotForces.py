@@ -41,7 +41,7 @@ def animate(i):
     ax2.set_title('Torques')
     ax2.set_xlabel('Time [ms]')
     ax2.set_ylabel('Torque [Nmm]')
-    ax2.legend(loc='lower left')
+    ax2.legend(loc='upper left')
 
     plt.tight_layout()
 
