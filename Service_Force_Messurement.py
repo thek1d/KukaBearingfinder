@@ -70,9 +70,9 @@ def Messbox_Data_Handler(topic, jsonData):
     forcey = json_Dict['forces'][1]
     forcez = json_Dict['forces'][2]
 
-    torqex = json_Dict['external_torqes'][0]
-    torqey = json_Dict['external_torqes'][1]
-    torqez = json_Dict['external_torqes'][2]
+    external_torquex = json_Dict['external_torqes'][0]
+    external_torquey = json_Dict['external_torqes'][1]
+    external_torquez = json_Dict['external_torqes'][2]
 
     with open('forces.csv', 'a') as csv_file:
         
@@ -83,9 +83,9 @@ def Messbox_Data_Handler(topic, jsonData):
             "Force_X"   : forcex,
             "Force_Y"   : forcey,
             "Force_Z"   : forcez,
-            "Torqe_X"   : torqex,
-            "Torqe_Y"   : torqey,
-            "Torqe_Z"   : torqez
+            "Torqe_X"   : external_torquex,
+            "Torqe_Y"   : external_torquey,
+            "Torqe_Z"   : external_torquez
         }
 
         csv_writer.writerow(info)

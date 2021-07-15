@@ -40,7 +40,7 @@ def animate(i):
     ax2.plot(ts, torqez, label='Torqe z-Axis')
     ax2.set_title('Torqes')
     ax2.set_xlabel('time [ms]')
-    ax2.set_ylabel('torqe [Nm]')
+    ax2.set_ylabel('torqe [Nmm]')
     ax2.legend(loc='lower left')
 
     plt.tight_layout()
