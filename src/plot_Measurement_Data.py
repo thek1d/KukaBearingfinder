@@ -15,7 +15,7 @@ fig, (ax1, ax2) = plt.subplots(nrows=2, ncols=1)
 
 def animate(i):
     
-    data = pd.read_csv('forces.csv')
+    data = pd.read_csv('Measurement_Data.csv')
     ts = data['Timestamp']
     forcex = data['Force_X']
     forcey = data['Force_Y']

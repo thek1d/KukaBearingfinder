@@ -59,7 +59,7 @@ def Messbox_Data_Handler(topic, jsonData):
     external_torquey = json_Dict['external_torques'][1]
     external_torquez = json_Dict['external_torques'][2]
 
-    with open('forces.csv', 'a') as csv_file:
+    with open('Measurement_Data.csv', 'a') as csv_file:
         
         csv_writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
 
@@ -89,7 +89,7 @@ def main():
     mqttc.subscribe(MQTT_Topic, 0)
     mqttc.subscribe(MQTT_Topic_Enable_Logging, 0)
 
-    with open('forces.csv', 'w') as csv_file:
+    with open('Measurement_Data.csv', 'w') as csv_file:
         csv_writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
         csv_writer.writeheader()
 
