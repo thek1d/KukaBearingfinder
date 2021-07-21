@@ -2,3 +2,4 @@
 requirements.txt
 forces.csv
 MqttClientKukaBearingFinder.py
+.plotForces_.sh.swp
