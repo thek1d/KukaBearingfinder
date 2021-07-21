@@ -33,3 +33,6 @@ This can be done by publishing a message to the same topic where enabling it <i>
 
 If you want want to make a complete new plot delete the forces.cvs file
 Hit <i>Crtl + C</i> for stopping the <i>Service_Force_Messurement.py</i> and <i>plotForces.py</i> and start them again.
+
+## Update
+Starting and Stopping plots can now be done with executing "<i>./plotForces.sh</i>" in the src folder. This also stops the background process (Service_Force_Messurement.py). You just have enable the logging via any MQTT Explorer after jo run this script.
